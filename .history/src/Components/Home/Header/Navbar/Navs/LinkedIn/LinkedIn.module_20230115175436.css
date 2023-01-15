@@ -1,0 +1,9 @@
+.fa-linkedin a {
+    color: #2778e1!important;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.fa-linkedin:hover {
+    color: #2778e1;
+}

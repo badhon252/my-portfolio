@@ -1,0 +1,8 @@
+.header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10rem;
+    padding: 0 1rem;
+}
