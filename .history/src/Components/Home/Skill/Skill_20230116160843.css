@@ -1,0 +1,22 @@
+.skills {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skillSet__title__text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.skillSet__title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+skillSet__title__line .skillSet {
+    margin: 1rem 0;
+}

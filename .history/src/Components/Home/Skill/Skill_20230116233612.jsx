@@ -11,7 +11,9 @@ const SkillEfficiency = () => {
                         <span> I am adaptable and able to learn newtechnologies as needed.</span>
                     </div>
                 </div>
+
                   <SkillSet/>
+          
        </div>
     );
 }

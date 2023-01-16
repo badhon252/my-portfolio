@@ -12,6 +12,7 @@ const SkillEfficiency = () => {
                     </div>
                 </div>
                   <SkillSet/>
+          
        </div>
     );
 }
