@@ -1,0 +1,23 @@
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}

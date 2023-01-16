@@ -1,0 +1,9 @@
+.header {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 10rem;
+    color: aliceblue;
+    padding: 0 1rem;
+}

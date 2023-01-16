@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.heroImage {
+    max-width: 450px;
+    min-width: 70%;
+    box-sizing: border-box;
+    overflow: hidden;
+}

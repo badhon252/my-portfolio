@@ -1,0 +1,21 @@
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.imgFluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.heroImage {
+    max-width: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+}

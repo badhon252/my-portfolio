@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    gap: 2rem;
+}
+
+.heroImage {
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: rgba(240, 248, 255, 0.733);
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.925);
+}
