@@ -40,11 +40,6 @@
     padding: 1rem 0;
 }
 
-.skillSet__title span {
-    padding: 1rem 0;
-    border-bottom: 4px solid rgb(255, 28, 28);
-}
-
 .skillSet__title__line {
     font-size: 1.3rem;
     font-weight: 600;

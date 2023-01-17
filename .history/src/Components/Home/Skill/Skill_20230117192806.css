@@ -41,8 +41,8 @@
 }
 
 .skillSet__title span {
-    padding: 1rem 0;
-    border-bottom: 4px solid rgb(255, 28, 28);
+    padding: 2rem 0;
+    border-bottom: 1px solid #fff;
 }
 
 .skillSet__title__line {
