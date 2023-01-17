@@ -20,6 +20,7 @@
     height: auto;
     box-sizing: border-box;
     overflow: hidden;
+    border: 1px solid #ff1818;
     border-radius: 30% 70% 64% 36% / 44% 42% 58% 56%;
 }
 

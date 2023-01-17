@@ -20,7 +20,10 @@
     height: auto;
     box-sizing: border-box;
     overflow: hidden;
-    border-radius: 30% 70% 64% 36% / 44% 42% 58% 56%;
+}
+
+.heroImage:hover {
+    border-radius: 20%;
 }
 
 h1 {
