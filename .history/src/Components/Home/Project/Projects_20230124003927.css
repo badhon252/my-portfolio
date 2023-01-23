@@ -1,0 +1,17 @@
+#card {
+    background-color: #fffae6;
+    /* width: 18rem */
+}
+
+.img-fluid {
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+.img-fluid:hover {
+    border-radius: 0;
+}
