@@ -1,0 +1,21 @@
+#about {
+    padding: 2rem 0;
+}
+
+#about p {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.568);
+    line-height: 1.3;
+    letter-spacing: -1px;
+}
+
+#about h1 {
+    color: #fcfcfc;
+}
+
+#about p:hover {
+    color: #fcfcfc;
+    cursor: progress;
+}

@@ -1,0 +1,25 @@
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.heroSection p {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.568);
+    line-height: 1.3;
+}

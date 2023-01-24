@@ -4,8 +4,8 @@ import "./HeaderContent.css"
 export default function HeroSection() {
   return (
     <div className="heroSection">
-          <h2 className="">Hi, I'm</h2>
-          <h1 className={Classes.h1}>Khalid Hossain.</h1>
+          <h2 className="h2">Hi, I'm</h2>
+          <h1 className={Classes.myName}>Khalid Hossain.</h1>
           <p>
             I’m a <span>Frontend Developer with a constant desire to grow, learn, and explore the world!</span> Passionate about crafting intuitive and engaging user experiences, 
             I am always looking for new challenges and opportunities to grow as an engineer.

@@ -17,5 +17,13 @@ img {
 }
 
 .navbar-brand {
-    color: #ff5656;
+    /* background: #FFFF00;
+    background: linear-gradient(to left, #FFFF00 0%, #05C1FF 50%, #FFFF00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: aqua;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
 }

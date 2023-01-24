@@ -1,0 +1,26 @@
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.me_1 {
+    margin-right: 1rem;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    background: #5661fc;
+    background: linear-gradient(to right, #4245ff 21%, #00DE00 48%, #FF1212 81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
