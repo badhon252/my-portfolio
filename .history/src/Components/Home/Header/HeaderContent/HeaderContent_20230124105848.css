@@ -1,0 +1,16 @@
+.heroSection .img-fluid {
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30% 70% 64% 36% / 44% 42% 58% 56%;
+}
+
+.heroSection {
+    background-color: #2c2d2c;
+    background-image: radial-gradient(circle at center center, transparent 0%, rgb(0, 0, 0) 99%), repeating-linear-gradient(0deg, rgba(163, 163, 163, 0.07) 0px, rgba(163, 163, 163, 0.07) 1px, transparent 1px, transparent 6px), repeating-linear-gradient(90deg, rgba(163, 163, 163, 0.07) 0px, rgba(163, 163, 163, 0.07) 1px, transparent 1px, transparent 6px), linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    color: #ffffff;
+    padding: 2rem 0;
+}

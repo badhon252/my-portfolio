@@ -1,0 +1,78 @@
+#card {
+    background-color: #2c2d2c;
+    /* width: 18rem */
+    overflow: hidden;
+    color: aliceblue;
+}
+
+.card-img {
+    overflow: hidden;
+}
+
+.img-fluid {
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+.img-fluid:hover {
+    border-radius: 0;
+    transform: scale(1.2);
+}
+
+
+/* Path: src/Components/Home/Project/Projects.css */
+
+.project__title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.project__title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.project__title__line {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.project__title__line a {
+    color: #0099ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project__title__line a:hover {
+    color: #1da5ff;
+    text-decoration: wavy;
+    font-weight: 600;
+}
+
+.card_img__link {
+    position: relative;
+}
+
+.card_img__link .img-fluid {
+    width: 35px;
+    position: absolute;
+    height: auto;
+    z-index: 1;
+    top: -15px;
+}
+
+.githubIcon {
+    right: 5px;
+}
+
+.redirect {
+    right: 60px;
+    max-width: 25px;
+    margin-top: 6px;
+    color: #0099ff;
+}

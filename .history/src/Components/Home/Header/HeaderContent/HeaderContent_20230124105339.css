@@ -1,0 +1,9 @@
+.img-fluid {
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30% 70% 64% 36% / 44% 42% 58% 56%;
+}

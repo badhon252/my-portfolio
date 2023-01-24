@@ -1,0 +1,25 @@
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.me_1 {
+    margin-right: 1rem;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    color: black;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

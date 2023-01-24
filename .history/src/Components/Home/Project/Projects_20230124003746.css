@@ -1,0 +1,8 @@
+#card {
+    background-color: #fffae6;
+    /* width: 18rem */
+}
+
+img:hover {
+    border-radius: 0;
+}

@@ -1,0 +1,21 @@
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.me_1 {
+    margin-right: 1rem;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    color: #ff2b2b;
+}

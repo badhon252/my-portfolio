@@ -1,0 +1,27 @@
+#card {
+    background-color: #fffae6;
+    /* width: 18rem */
+    overflow: hidden;
+}
+
+.img-fluid {
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+.img-fluid:hover {
+    border-radius: 0;
+    transform: scale(1.1);
+}
+
+
+/* Path: src/Components/Home/Project/Projects.css */
+
+.project__title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
