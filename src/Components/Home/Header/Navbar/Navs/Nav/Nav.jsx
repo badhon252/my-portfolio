@@ -8,7 +8,7 @@ export default function Nav() {
       <div class="container-fluid">
         <a class="navbar-brand" href="#home">khalid</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
@@ -19,7 +19,7 @@ export default function Nav() {
               <a class="nav-link" href="#skill">Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Project</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="#aboutMe">About</a>

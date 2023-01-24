@@ -1,0 +1,7 @@
+#about p {
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.568);
+    line-height: 1.3;
+}

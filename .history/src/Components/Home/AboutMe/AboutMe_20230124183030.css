@@ -1,0 +1,41 @@
+#about {
+    padding: 2rem 1rem;
+    min-height: 100vh;
+}
+
+#about p {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.568);
+    line-height: 1.3;
+    letter-spacing: -1px;
+}
+
+#about h1 {
+    color: #fcfcfc;
+    font-size: 2.5em;
+}
+
+#about p:hover {
+    color: #fcfcfc;
+    cursor: text;
+}
+
+.aboutMe_titile::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -13px;
+    width: 30vw;
+    height: 1px;
+    margin-left: 200px;
+    background-color: rgba(9, 250, 227, 0.63);
+}
+
+
+/* edu ========== */
+
+#edu h4 {
+    font-size: 2rem;
+}
