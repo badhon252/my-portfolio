@@ -14,8 +14,9 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 5px 5px 50px rgba(53, 255, 3, 0.295);
-    transform: translateY(-25px);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-15px);
+    transition: 0.5s;
 }
 
 #card:hover span {

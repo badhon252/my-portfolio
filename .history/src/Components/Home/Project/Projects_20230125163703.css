@@ -14,7 +14,7 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 5px 5px 50px rgba(53, 255, 3, 0.295);
+    box-shadow: 5px 5px 20px 0px rgba(255, 255, 255, 0.295);
     transform: translateY(-25px);
 }
 

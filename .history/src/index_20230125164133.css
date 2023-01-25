@@ -14,12 +14,10 @@ body {
     box-sizing: border-box;
 }
 
-
-/* p,
 li,
 span {
-    font-family: 'ubuntu', sans-serif;
-} */
+    font-family: 'mono', sans-serif;
+}
 
 
 /* h1,

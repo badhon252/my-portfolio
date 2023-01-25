@@ -12,17 +12,16 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
-
-/* p,
+p,
 li,
 span {
-    font-family: 'ubuntu', sans-serif;
-} */
+    font-family: 'mono', sans-serif;
+}
 
-
-/* h1,
+h1,
 h2 {
     font-family: 'poppins', sans-serif!important;
-} */
+}

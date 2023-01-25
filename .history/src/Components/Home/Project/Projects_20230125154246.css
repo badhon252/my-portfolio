@@ -5,21 +5,18 @@
     color: aliceblue;
     position: relative;
     text-align: center;
-    transition: .5s;
 }
 
 #card:hover {
     background-color: #2c2d2c;
     /* width: 18rem */
     overflow: hidden;
+    color: aliceblue;
     position: relative;
     text-align: center;
-    box-shadow: 5px 5px 50px rgba(53, 255, 3, 0.295);
-    transform: translateY(-25px);
-}
-
-#card:hover span {
-    color: aliceblue;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-15px);
+    transition: 0.5s;
 }
 
 .card-img {
@@ -44,7 +41,7 @@
 /* Path: src/Components/Home/Project/Projects.css */
 
 .project__title {
-    color: rgba(255, 255, 255, 0.664);
+    color: rgba(255, 255, 255, 0.281);
     text-align: center;
 }
 
