@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&display=swap');
+.heroImage {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.myName {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+}
+
+.myName span {
+    font: 700 1.5em/1 "Unbounded", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    /* Clip Background Image */
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+
+/* Animate Background Image */
+
+@keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.heroSection:hover .myName {
+    text-shadow: 0 0 12px #24fbdd;
+}
+
+.h2 {
+    font-size: 1.5em;
+    font-family: 'Unbounded', cursive;
+    margin: 1rem 0;
+    line-height: 1;
+    color: #ff0099;
+    font-weight: 600;
+}
+
+
+/* #about p:hover h2 {
+    text-shadow: 0 0 12px #24fbdd;
+} */
+
+.bio {
+    font-size: 1.6em;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.653);
+    line-height: 1.3;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+*::selection {
+    background-color: #ddff00;
+    color: #000000;
+}
+
+.bio span {
+    font-style: italic;
+    color: #fcfcfc;
+}
+
+
+/* bio text animations  */
+
+.center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.char {
+    font-size: 40px;
+    height: 40px;
+    animation: an 1s ease-out 1 both;
+    display: inline-block;
+}
+
+@keyframes an {
+    from {
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to {
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}
+
+.mylink {
+    position: absolute;
+    z-index: 150;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding: .6rem;
+}
+
+
+/*! resume  */
+
+.resume {
+    padding: .9rem 1.8rem;
+    border: 1px solid #09ff01;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    outline: none;
+    border-radius: 5px;
+    background: none;
+    color: #fcfcfc;
+    transition: .5s;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.resume:hover {
+    color: rgb(7, 7, 7);
+    background-color: rgb(0, 255, 21);
+}
+
+.resume:active {
+    transform: scale(0.95);
+}
