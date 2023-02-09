@@ -1,5 +1,5 @@
 #card {
-    background-color: #2c2d2c3a;
+    background-color: #2c2d2c;
     /* width: 18rem */
     overflow: hidden;
     color: aliceblue;
@@ -9,6 +9,7 @@
 }
 
 #card:hover {
+    background-color: #2729277e;
     /* width: 18rem */
     overflow: hidden;
     position: relative;
@@ -34,9 +35,9 @@
     transition: 0.5s;
 }
 
-#card:hover .card-img-top {
+.card-img-top:hover {
     border-radius: 0;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 

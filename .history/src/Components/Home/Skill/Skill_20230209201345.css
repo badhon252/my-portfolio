@@ -33,6 +33,7 @@
     color: #ffffff;
     transform: translateY(-5px);
     cursor: text;
+    font-size: 1.2rem;
 }
 
 .skillSet__title {
