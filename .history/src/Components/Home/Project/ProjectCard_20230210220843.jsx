@@ -14,11 +14,11 @@ export default function ProjectCard(props) {
           <div className="card-img">
             <a href={props.preview}>
               <img src={props.img} className="card-img-top img-fluid" alt={props.title}/>
-              <CardImgLink preview={props.preview} link={props.link}/>
             </a>
           </div> 
         <div className="card-body">
           <div className="stacks">
+              <CardImgLink preview={props.preview} link={props.link}/>
              {stacks()}
           </div>
        

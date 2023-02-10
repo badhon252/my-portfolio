@@ -14,16 +14,17 @@ export default function ProjectCard(props) {
           <div className="card-img">
             <a href={props.preview}>
               <img src={props.img} className="card-img-top img-fluid" alt={props.title}/>
-              <CardImgLink preview={props.preview} link={props.link}/>
             </a>
+            
           </div> 
         <div className="card-body">
           <div className="stacks">
+              <CardImgLink preview={props.preview} link={props.link}/>
              {stacks()}
           </div>
        
             <h5 className="card-title my-2">{props.title}</h5>
-            <span className="card-text py-5 px-3">{props.text}</span>
+            <span className="card-text">{props.text}</span>
             
         </div>
     </div>
