@@ -1,0 +1,67 @@
+.navBar {
+    padding: 1.1rem 0;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: #00000085;
+    z-index: 1111111;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    margin: 0 1rem;
+}
+
+.navbar-nav li a:hover {
+    color: #49ff12;
+}
+
+.navbar-nav li a.active {
+    color: #bb0707;
+}
+
+.navbar-nav li a.active:hover {
+    color: #f1f1f1;
+}
+
+.navbar-nav li a.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #f1f1f1;
+    margin-top: 5px;
+}
+
+.navbar-nav li a.active:hover::after {
+    background: #f1f1f1;
+}
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.navbar-brand .img-fluid {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
