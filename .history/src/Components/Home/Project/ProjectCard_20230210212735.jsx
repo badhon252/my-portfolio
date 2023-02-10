@@ -24,7 +24,7 @@ export default function ProjectCard(props) {
           </div>
        
             <h5 className="card-title my-2">{props.title}</h5>
-            <span className="card-text py-5 px-3">{props.text}</span>
+            <span className="card-text">{props.text}</span>
             
         </div>
     </div>
