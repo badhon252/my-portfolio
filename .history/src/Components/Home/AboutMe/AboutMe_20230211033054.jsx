@@ -54,7 +54,7 @@ const AboutMe = () => {
 
                     </div>
                     <div className="col-md-4">
-                        <img className="img-fluid" src={myImg} alt="Software engineer's Avater" />
+                        <img className="img-fluid" src={codingGif} alt="Software engineer's Avater" />
                     </div>
                 </div>
               
