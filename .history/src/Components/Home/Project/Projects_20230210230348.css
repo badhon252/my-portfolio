@@ -103,11 +103,7 @@
 }
 
 .card_img__link i {
-    color: #fff;
-}
-
-.card_img__link i:hover {
-    color: rgb(0, 157, 255);
+    height: auto;
 }
 
 

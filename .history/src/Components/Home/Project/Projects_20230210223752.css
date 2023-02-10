@@ -72,7 +72,7 @@
 
 .card_img__link {
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.332);
+    background-color: rgba(0, 0, 0, .507);
     border-radius: 5px;
     display: flex;
     justify-content: flex-end;
@@ -83,10 +83,6 @@
     left: 0;
     transition: .5s;
     opacity: 0;
-}
-
-#card:hover .card_img__link {
-    opacity: 1;
 }
 
 .card_img__link a {
@@ -100,15 +96,17 @@
     color: #eae8ff;
     text-decoration: none;
     font-weight: 700;
+    opacity: 1;
 }
 
-.card_img__link i {
-    color: #fff;
-}
 
-.card_img__link i:hover {
-    color: rgb(0, 157, 255);
-}
+/* .card_img__link i {
+    width: 35px;
+    position: absolute;
+    height: auto;
+    z-index: 1;
+    top: 0;
+} */
 
 
 /* .githubIcon {
