@@ -23,7 +23,7 @@
 .navbar-nav li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.703);
-    font-size: 1.1em;
+    font-size: 1.2rem;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
     margin: 0 1rem;
@@ -64,7 +64,7 @@
     content: "";
     display: block;
     height: 2px;
-    width: 1.1em;
+    width: 1em;
     background: #ff0672fc;
     transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
