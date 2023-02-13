@@ -1,0 +1,13 @@
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    max-width: 2rem;
+}
+
+.icons a:nth-child(2) {
+    margin: 1rem
+}

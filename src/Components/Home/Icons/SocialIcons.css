@@ -1,0 +1,19 @@
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    max-height: 2.5rem;
+    max-width: 2.5rem;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.icons a:hover {
+    background-color: rgba(85, 85, 85, 0.402);
+}
+
+.icons a:nth-child(2) {
+    margin: 1rem;
+}
