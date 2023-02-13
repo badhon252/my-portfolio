@@ -31,7 +31,7 @@ const Projects = () => {
                     </div> 
                   <div className="col-md-4">
                         <ProjectCard img={booklists} 
-                        title={"Book's Listing"}
+                        title={"Book's-List"}
                         text={"Book List app using create read delete & localStorage supported"}
                         stack={["javascript", "localStorage", "git & gitub"]}
                         preview={"https://badhon252.github.io/BookList/"} 

@@ -61,9 +61,9 @@
     content: "";
     display: block;
     height: 2px;
-    width: 1em;
+    width: 10px;
     background: #ff0672fc;
-    transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: .5s;
 }
 
 .navbar-nav .nav-item .nav-link:hover::after {

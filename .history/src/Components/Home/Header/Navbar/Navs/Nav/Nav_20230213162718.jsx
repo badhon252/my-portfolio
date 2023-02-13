@@ -9,7 +9,7 @@ export default function Nav() {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
-          <img className="img-fluid" src={logo} alt="Khalid Hossain Badhon logo" />
+          <img className="img-fluid" src={logo} alt="" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i className="fa-solid fa-bars"></i>
