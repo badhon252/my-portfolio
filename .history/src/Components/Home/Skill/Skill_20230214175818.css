@@ -20,7 +20,7 @@
     content: "";
     display: block;
     height: 4px;
-    transition: .3s;
+    transition: .6s;
     width: 0;
     background: rgb(255, 14, 118);
 }

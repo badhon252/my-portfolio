@@ -1,13 +1,12 @@
 .icons {
     display: flex;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .icons a {
     max-height: 2.5rem;
     max-width: 2.5rem;
-    padding: 8px;
+    padding: 10px;
     border-radius: 50%;
 }
 
@@ -17,8 +16,4 @@
 
 .icons a:nth-child(2) {
     margin: .5rem;
-}
-
-.fa-linkedin {
-    color: #5dd4ff!important;
 }

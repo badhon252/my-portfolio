@@ -2,11 +2,9 @@ import "./Skill.css"
 import SkillSet from "./SkillSet";
 const SkillEfficiency = () => {
     return (
-       <section id="skill" >
-        <div className="container">
-
-        <div className="d-flex justify-content-center">
-                <h1 className="skillSet__title"> My Skills Set </h1>
+       <section id="skill" className="container">
+        <div className="mx-auto">
+                <h2 className="skillSet__title"> My Skills Set </h2>
         </div>
                 <div className="skillSet__title__line">
                     <div className="skillSet__title__line__inner">
@@ -15,7 +13,6 @@ const SkillEfficiency = () => {
                     </div>
                 </div>
                   <SkillSet/>
-        </div>
        </section>
     );
 }

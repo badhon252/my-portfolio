@@ -55,6 +55,7 @@
 .navbar-brand .img-fluid {
     max-width: 60px;
     max-height: 60px;
+    border-radius: 50%;
 }
 
 .navbar-brand:hover img {
