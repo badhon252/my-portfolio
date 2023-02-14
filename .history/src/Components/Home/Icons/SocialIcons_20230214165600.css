@@ -1,7 +1,6 @@
 .icons {
     display: flex;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .icons a {
@@ -17,8 +16,4 @@
 
 .icons a:nth-child(2) {
     margin: .5rem;
-}
-
-.fa-linkedin {
-    color: #5dd4ff!important;
 }

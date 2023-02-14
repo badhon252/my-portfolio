@@ -20,13 +20,13 @@
     content: "";
     display: block;
     height: 4px;
-    transition: .3s;
+    transition: .6s;
     width: 0;
-    background: rgb(255, 14, 118);
+    background: linear-gradient(202deg, rgb(5, 255, 1) 20%, rgb(255, 14, 118) 50%, rgb(0 4 255) 100%);
 }
 
-.skillSet:hover .skillSet__title__text::after {
-    width: 50%;
+#skill:hover .skillSet__title__text::after {
+    width: 100%;
 }
 
 .skillSet li {

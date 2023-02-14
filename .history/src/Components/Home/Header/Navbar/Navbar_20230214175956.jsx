@@ -7,7 +7,7 @@ import Nav from './Navs/Nav/Nav'
 
 export default function Navbar() {
   return (
-    <div className='navBar borderBottom container-fluid'>
+    <div className='navBar borderBottom container'>
             <Nav/>
          {/* <div className='navBar'>
             <LinkedIn/>

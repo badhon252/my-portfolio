@@ -20,5 +20,11 @@
 }
 
 .fa-linkedin {
-    color: #5dd4ff!important;
+    color: #0077b5!important;
+    background: #fff;
+    height: auto;
+}
+
+.fa-github {
+    color: #000;
 }

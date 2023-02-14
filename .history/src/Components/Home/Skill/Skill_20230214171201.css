@@ -16,19 +16,6 @@
     margin-bottom: 1rem;
 }
 
-.skillSet__title__text::after {
-    content: "";
-    display: block;
-    height: 4px;
-    transition: .3s;
-    width: 0;
-    background: rgb(255, 14, 118);
-}
-
-.skillSet:hover .skillSet__title__text::after {
-    width: 50%;
-}
-
 .skillSet li {
     list-style-type: none;
     margin: 0.5rem 1rem;
@@ -60,24 +47,15 @@
 } */
 
 .skillSet__title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.skillSet__title {
     padding: 1rem 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    font-style: italic;
-    font-size: 3em;
-}
-
-.skillSet__title::after {
-    content: "";
-    display: block;
-    height: 4px;
-    transition: .6s;
-    width: 0;
-    background: linear-gradient(202deg, rgb(5, 255, 1) 20%, rgb(255, 14, 118) 50%, rgb(0 4 255) 100%);
-}
-
-#skill:hover .skillSet__title::after {
-    width: 100%;
 }
 
 .skillSet__title__line {
@@ -90,8 +68,8 @@
 
 .skillSet__title__line__inner {
     font-family: 'Raleway', sans-serif;
-    margin: 1.3em 0 3em 0;
-    font-size: 1em;
+    margin: 24px 0 80px 0;
+    font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.5;
     color: #ffffff;
