@@ -76,13 +76,12 @@
 .skillSet__title::after {
     content: "";
     display: block;
+    height: 3px;
     position: absolute;
-    height: 1px;
     bottom: 0;
-    transition: .5s;
+    transition: 1s;
     width: 100%;
-    background-color: rgb(218, 2, 2);
-    z-index: -1;
+    background-color: red;
 }
 
 #skill:hover .skillSet__title::after {
