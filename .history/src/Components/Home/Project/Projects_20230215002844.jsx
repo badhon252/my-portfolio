@@ -18,7 +18,7 @@ const Projects = () => {
                     </div>
                     <p className="project__title__line my-3">
                         Here are a few past UI projects I've worked on. Want to see more? 
-                        <a href="http://github.com/badhon252">GitHub</a>
+                        <a href="http://github.com/badhon252">  GitHub</a>
                     </p> 
                 </div>
                 

@@ -7,7 +7,7 @@ const AboutMe = () => {
         <section  id="about">
             <div className='container'>
                 <div className="d-flex justify-content-center">
-                    <h1 className="aboutMe_title my-5">About Me</h1>
+                    <h1 className="aboutMe_title">Abou tMe</h1>
                 </div> 
                 <div className="about-me">
                     <div className="row">

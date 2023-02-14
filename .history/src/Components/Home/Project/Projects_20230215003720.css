@@ -56,20 +56,19 @@
      position: relative;
  }
  
- .project__title-text h1::after {
+ h1::after {
      content: "";
      display: block;
-     height: 1px;
+     height: 3px;
      position: absolute;
      bottom: 0;
-     transition: .5s;
+     transition: 1s;
      width: 100%;
-     background-color: rgb(218, 2, 2);
-     z-index: -1;
+     background-color: red;
  }
  
  #projects:hover .project__title-text h1::after {
-     height: 40%;
+     height: 50%;
  }
  
  .project__title__line {

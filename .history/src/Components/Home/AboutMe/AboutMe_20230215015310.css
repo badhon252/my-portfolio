@@ -20,6 +20,7 @@
     font-style: italic;
     display: inline-block;
     position: relative;
+    transition: .5s;
 }
 
 .aboutMe_title::after {
@@ -31,11 +32,10 @@
     bottom: 0;
     z-index: -1;
     background-color: rgb(255, 0, 89);
-    transition: .5s;
 }
 
 #about:hover .aboutMe_title::after {
-    height: 35%;
+    height: 50%;
 }
 
 #about p:hover {

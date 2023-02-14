@@ -62,9 +62,9 @@
      height: 1px;
      position: absolute;
      bottom: 0;
-     transition: .5s;
+     transition: 1s;
      width: 100%;
-     background-color: rgb(218, 2, 2);
+     background-color: red;
      z-index: -1;
  }
  

@@ -79,9 +79,9 @@
     position: absolute;
     height: 1px;
     bottom: 0;
-    transition: .5s;
+    transition: 1s;
     width: 100%;
-    background-color: rgb(218, 2, 2);
+    background-color: red;
     z-index: -1;
 }
 

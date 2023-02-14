@@ -16,10 +16,10 @@ const Projects = () => {
                     <div className="project__title-text">
                         <h1>My Recent Works</h1>
                     </div>
-                    <p className="project__title__line my-3">
+                    <div className="project__title__line my-3">
                         Here are a few past UI projects I've worked on. Want to see more? 
-                        <a href="http://github.com/badhon252">GitHub</a>
-                    </p> 
+                        <a href="http://github.com/badhon252"> = GitHub</a>
+                    </div> 
                 </div>
                 
                 <div className="row">

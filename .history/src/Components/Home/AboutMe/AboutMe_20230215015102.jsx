@@ -6,9 +6,11 @@ const AboutMe = () => {
     return (
         <section  id="about">
             <div className='container'>
+ 
                 <div className="d-flex justify-content-center">
-                    <h1 className="aboutMe_title my-5">About Me</h1>
+                    <h1 className="aboutMe_title">AboutMe</h1>
                 </div> 
+                
                 <div className="about-me">
                     <div className="row">
                         <div className="col-md-8">

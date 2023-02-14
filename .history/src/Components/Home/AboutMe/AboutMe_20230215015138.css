@@ -15,9 +15,6 @@
 #about .aboutMe_title {
     color: #ffffff;
     font-size: 3em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-style: italic;
     display: inline-block;
     position: relative;
 }
@@ -31,11 +28,10 @@
     bottom: 0;
     z-index: -1;
     background-color: rgb(255, 0, 89);
-    transition: .5s;
 }
 
 #about:hover .aboutMe_title::after {
-    height: 35%;
+    height: 50%;
 }
 
 #about p:hover {
