@@ -12,30 +12,9 @@
     letter-spacing: -1px;
 }
 
-#about .aboutMe_title {
-    color: #ffffff;
+#about h1 {
+    color: #fcfcfc;
     font-size: 3em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-style: italic;
-    display: inline-block;
-    position: relative;
-}
-
-.aboutMe_title::after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    z-index: -1;
-    background-color: rgb(255, 0, 89);
-    transition: .5s;
-}
-
-#about:hover .aboutMe_title::after {
-    height: 35%;
 }
 
 #about p:hover {
