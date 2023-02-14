@@ -1,0 +1,163 @@
+#card {
+    background-color: #2c2d2c3a;
+    /* width: 18rem */
+    overflow: hidden;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    transition: .4s;
+}
+
+#card:hover {
+    /* width: 18rem */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 5px 5px 50px rgba(53, 255, 3, 0.193);
+    transform: translateY(-25px);
+}
+
+#card:hover span {
+    color: aliceblue;
+}
+
+.card-img {
+    overflow: hidden;
+}
+
+.img-fluid {
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+#card:hover .card-img-top {
+    border-radius: 0;
+    transform: scale(1.1);
+}
+
+
+/* Path: src/Components/Home/Project/Projects.css */
+
+.project__title {
+    color: rgba(255, 255, 255, 0.664);
+    text-align: center;
+}
+
+.project__title-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.project__title__line {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.project__title__line a {
+    color: #0099ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project__title__line a:hover {
+    color: #1da5ff;
+    text-decoration: underline;
+}
+
+.card_img__link {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.332);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+}
+
+#card:hover .card_img__link {
+    opacity: 1;
+}
+
+.card_img__link a {
+    color: #dbdbdb;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 .5rem;
+}
+
+.card_img__link a:hover {
+    color: #eae8ff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.card_img__link i {
+    color: #fff;
+}
+
+.card_img__link i:hover {
+    color: rgb(0, 157, 255);
+}
+
+
+/* .githubIcon {
+    right: 5px;
+}
+
+.redirect {
+    max-width: 40px;
+    margin-top: 6px;
+    color: #0099ff;
+} */
+
+.card-body {
+    z-index: 111;
+    padding-bottom: 2rem;
+}
+
+.card-body h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-body .stacks {
+    margin: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#card:hover .stacks {
+    opacity: 1;
+}
+
+.card-body .stack {
+    display: inline;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: rgb(73, 73, 73);
+    margin: .1rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.card-text {
+    color: #dbdbdbbb;
+}
+
+.card-text:hover {
+    color: #eae8ff;
+}
