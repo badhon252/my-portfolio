@@ -94,15 +94,6 @@
 }
 
 #contact .card input[placeholder] {
-    font-size: 1em;
-    font-weight: 500;
-    color: #000000;
-    border-radius: 10px;
-    margin-top: 1em;
-    transition: all 0.3s ease;
-}
-
-#emailHelp {
     font-size: .8em;
     font-weight: 500;
     color: #000000;

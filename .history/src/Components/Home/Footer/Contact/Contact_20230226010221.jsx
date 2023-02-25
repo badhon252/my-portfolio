@@ -5,7 +5,7 @@ export default function Contact() {
     <div id="contact">
     <div className="container">
       <div className="row">
-        <div className="col-md-6 ">
+        <div className="col-md-6">
           <div className="contactInfo">
           <p>
             Let's chat. <br />
@@ -21,7 +21,7 @@ export default function Contact() {
           </div>
           </div>
         </div>
-        <div className="col-md-6 d-flex justify-content-center">
+        <div className="col-md-6 mx-auto">
           <div className="contactForm card p-5">
           <h1 className="m-3">Send me a messege!</h1>
             <form>
@@ -30,13 +30,12 @@ export default function Contact() {
               </div>
               <div class="mb-3">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email here*"/>
-                <div id="emailHelp" class="form-text px-3">I'll never share your email with anyone else.</div>
+                <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
               </div>
               <div class="mb-3">
-               
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell me more about your project..."></textarea>
+                <input type="textarea" class="form-control" aria-describedby="emailHelp" placeholder="Type your messege here*"/>
               </div>
-              <button type="submit" class="btn footerBtn">Send message</button>
+              <button type="submit" class="btn btn-primary">Send message</button>
           </form>
           </div>
         </div>

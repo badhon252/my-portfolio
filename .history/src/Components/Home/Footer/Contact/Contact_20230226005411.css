@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.056);
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.198);
     line-height: 1.2;
 }
 
@@ -60,53 +60,14 @@
 /* contact form  */
 
 #contact .card {
+    width: 80%;
     max-width: 500px;
     background: #fff;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.061);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.198);
     padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.contactForm h1 {
-    font-size: 2em;
-    font-weight: 700;
-}
-
-.footerBtn {
-    background-color: #6a00ff;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    padding: 0.5em 1em;
-    font-size: 1.2em;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 1em;
-}
-
-#contact .card input:focus {
-    outline: #6a00ff 1px solid;
-}
-
-#contact .card input[placeholder] {
-    font-size: 1em;
-    font-weight: 500;
-    color: #000000;
-    border-radius: 10px;
-    margin-top: 1em;
-    transition: all 0.3s ease;
-}
-
-#emailHelp {
-    font-size: .8em;
-    font-weight: 500;
-    color: #000000;
-    border-radius: 10px;
-    margin-top: 1em;
-    transition: all 0.3s ease;
+    align-items: center;
 }
