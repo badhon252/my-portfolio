@@ -94,7 +94,7 @@
 }
 
 #contact .card input[placeholder] {
-    font-size: 1em;
+    font-size: .8em;
     font-weight: 500;
     color: #000000;
     border-radius: 10px;

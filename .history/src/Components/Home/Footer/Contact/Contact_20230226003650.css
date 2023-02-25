@@ -1,0 +1,36 @@
+#contact {
+    background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 2px, rgba(0, 0, 0, 0.03) 2px, rgba(0, 0, 0, 0.03) 3px, transparent 3px, transparent 5px, rgba(0, 0, 0, 0.03) 5px, rgba(0, 0, 0, 0.03) 7px), repeating-radial-gradient(circle at center center, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 9px, rgb(255, 255, 255) 9px, rgb(255, 255, 255) 21px, rgb(255, 255, 255) 21px, rgb(255, 255, 255) 31px, rgb(255, 255, 255) 31px, rgb(255, 255, 255) 40px);
+    background-size: 20px 20px;
+    color: #1a1818;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact .contactInfo p {
+    font-size: 4em;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+}
+
+#contact .contactInfo .contactMoto {
+    font-size: 1.5em;
+    font-weight: 400;
+    display: block;
+    margin-top: 0.5em;
+}
+
+#contact .contactInfo .contactMail {
+    display: flex;
+    align-items: center;
+}
+
+#contact .contactInfo .contactMail a {
+    font-size: 1.5em;
+    font-weight: 400;
+    display: block;
+    margin-top: 0.5em;
+    text-decoration: none;
+}

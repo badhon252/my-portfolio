@@ -5,7 +5,7 @@ export default function Contact() {
     <div id="contact">
     <div className="container">
       <div className="row">
-        <div className="col-md-6 ">
+        <div className="col-md-6 justify-content-center">
           <div className="contactInfo">
           <p>
             Let's chat. <br />
@@ -30,7 +30,7 @@ export default function Contact() {
               </div>
               <div class="mb-3">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email here*"/>
-                <div id="emailHelp" class="form-text px-3">I'll never share your email with anyone else.</div>
+                <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
               </div>
               <div class="mb-3">
                

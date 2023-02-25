@@ -17,23 +17,21 @@
 
 #contact .contactInfo .contactMoto {
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 400;
     display: block;
+    margin-top: 0.8em;
 }
 
 #contact .contactInfo .contactMail {
     display: flex;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.056);
-    line-height: 1.2;
 }
 
 #contact .contactInfo .contactMail i {
     font-size: 1.5em;
     opacity: .5;
     margin-right: 0.5em;
-    color: #000000;
+    color: #17a294;
 }
 
 #contact .contactInfo .contactMail a {
@@ -41,6 +39,7 @@
     font-size: 1.1em;
     font-weight: 600;
     display: block;
+    margin-top: 0.5em;
     text-decoration: none;
 }
 
@@ -50,63 +49,4 @@
 
 #contact .contactInfo .contactMail span {
     color: rgb(34, 0, 255);
-}
-
-#contact .contactInfo .contactMail span:hover {
-    color: rgb(0, 0, 0);
-}
-
-
-/* contact form  */
-
-#contact .card {
-    max-width: 500px;
-    background: #fff;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.061);
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contactForm h1 {
-    font-size: 2em;
-    font-weight: 700;
-}
-
-.footerBtn {
-    background-color: #6a00ff;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    padding: 0.5em 1em;
-    font-size: 1.2em;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 1em;
-}
-
-#contact .card input:focus {
-    outline: #6a00ff 1px solid;
-}
-
-#contact .card input[placeholder] {
-    font-size: 1em;
-    font-weight: 500;
-    color: #000000;
-    border-radius: 10px;
-    margin-top: 1em;
-    transition: all 0.3s ease;
-}
-
-#emailHelp {
-    font-size: .8em;
-    font-weight: 500;
-    color: #000000;
-    border-radius: 10px;
-    margin-top: 1em;
-    transition: all 0.3s ease;
 }
