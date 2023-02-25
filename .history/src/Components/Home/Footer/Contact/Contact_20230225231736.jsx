@@ -31,9 +31,9 @@ export default function Contact() {
                 <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
               </div>
               <div class="mb-3">
-                <input type="Textarea" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your messege here*"/>
+                <input type="Textarea" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email here*"/>
               </div>
-              <button type="submit" class="btn btn-primary">Send</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
           </form>
           </div>
         </div>
