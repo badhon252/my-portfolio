@@ -27,13 +27,11 @@ export default function Contact() {
                 <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Type your name here*"/>
               </div>
               <div class="mb-3">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email here*"/>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email here8"/>
                 <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
               </div>
-              <div class="mb-3">
-                <input type="Textarea" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your messege here*"/>
-              </div>
-              <button type="submit" class="btn btn-primary">Send</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
           </form>
           </div>
         </div>
