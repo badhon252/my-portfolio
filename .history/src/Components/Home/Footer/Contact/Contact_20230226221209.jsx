@@ -12,11 +12,11 @@ export default function Contact() {
             Let's chat. <br />
             Tell me about your project
           </p>
-          <div className="contactMoto py-3">Let's create something together  💼  </div>
+          <div className="contactMoto py-3">Let's create something together 🤙  </div>
           <div className="contactMail px-5 py-3 my-3">
-            <img src={gmail} alt="gmail" className="img-fluid me-3" />
+           <img src={gmail} alt="gmail" className="img-fluid" />
             <a href="mailto:dev.khalidhossain@gmail.com">
-              Mail me at: <br />
+              Mail me at <br />
               <span>dev.khalidhossain@gmail.com</span>
             </a>
           </div>
@@ -31,7 +31,7 @@ export default function Contact() {
               </div>
               <div class="mb-3">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email here*"/>
-                <div id="emailHelp" class="form-text pb-3 ">I'll never share your email with anyone else.</div>
+                <div id="emailHelp" class="form-text px-3">I'll never share your email with anyone else.</div>
               </div>
               <div class="mb-3">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell me more about your project..."></textarea>

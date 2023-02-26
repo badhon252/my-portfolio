@@ -12,7 +12,7 @@ export default function Contact() {
             Let's chat. <br />
             Tell me about your project
           </p>
-          <div className="contactMoto py-3">Let's create something together  💼  </div>
+          <div className="contactMoto py-3">Let's create something together 🤙  </div>
           <div className="contactMail px-5 py-3 my-3">
             <img src={gmail} alt="gmail" className="img-fluid me-3" />
             <a href="mailto:dev.khalidhossain@gmail.com">
