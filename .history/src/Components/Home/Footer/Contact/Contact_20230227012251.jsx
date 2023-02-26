@@ -60,7 +60,7 @@ export default function Contact() {
                   type="submit"
                   onClick={(e) => {
                     e.preventDefault();
-                    console.log(e);
+                    console.log(e.target);
                   }}
                   className="btn footerBtn"
                 >

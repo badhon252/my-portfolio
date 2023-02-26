@@ -117,10 +117,10 @@
 
 #contact .card input,
 textarea {
-  background-color: #ffffffb3;
+  background-color: #ffffff97;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.128);
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.061);
   padding: 0.5em 1em;
   font-size: 1em;
   font-weight: 500;

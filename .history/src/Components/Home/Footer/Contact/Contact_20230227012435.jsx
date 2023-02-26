@@ -57,10 +57,9 @@ export default function Contact() {
                   ></textarea>
                 </div>
                 <button
-                  type="submit"
-                  onClick={(e) => {
+                  onSubmit={(e) => {
                     e.preventDefault();
-                    console.log(e);
+                    console.log(e.target);
                   }}
                   className="btn footerBtn"
                 >
