@@ -1,6 +1,6 @@
 #contact {
     /* background: rgb(118, 255, 193); */
-    background: linear-gradient(90deg, #ccff00 40%, #3ad59f 100%);
+    background: linear-gradient(90deg, #f8ff00 50%, #3ad59f 100%);
     background-size: cover;
     /* background-repeat: no-repeat; */
     color: #1a1818;
@@ -27,19 +27,9 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.056);
     line-height: 1.2;
-    background-color: #ffffffa5;
-    transition: 1s;
-}
-
-#contact .contactInfo .contactMail:hover {
-    background-color: #fffffffe;
-}
-
-#contact .contactInfo .contactMail .img-fluid {
-    max-height: 3em;
-    max-width: 3em;
+    background-color: #ffffffa4;
 }
 
 #contact .contactInfo .contactMail i {
@@ -74,20 +64,14 @@
 
 #contact .card {
     max-width: 500px;
-    background: #ffffffd1;
+    background: #ffffffb3;
     border: none;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.061);
     padding: 2em;
-    display: grid;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: .7s;
-}
-
-#contact .card:hover {
-    box-shadow: rgba(149, 157, 165, 0.725) 0px 8px 24px;
-    background-color: #fff;
 }
 
 .contactForm h1 {
@@ -114,20 +98,6 @@
 
 #contact .card input:focus {
     outline: #6a00ff 1px solid;
-}
-
-#contact .card input {
-    background-color: #ffffffb3;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.061);
-    padding: 0.5em 1em;
-    font-size: 1em;
-    font-weight: 500;
-    color: #000000;
-    border-radius: 10px;
-    margin-top: 1em;
-    transition: all 0.3s ease;
 }
 
 #contact .card input[placeholder] {

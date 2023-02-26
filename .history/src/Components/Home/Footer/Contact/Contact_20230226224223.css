@@ -74,7 +74,7 @@
 
 #contact .card {
     max-width: 500px;
-    background: #ffffffd1;
+    background: #ffffffb3;
     border: none;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.061);
@@ -114,20 +114,6 @@
 
 #contact .card input:focus {
     outline: #6a00ff 1px solid;
-}
-
-#contact .card input {
-    background-color: #ffffffb3;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.061);
-    padding: 0.5em 1em;
-    font-size: 1em;
-    font-weight: 500;
-    color: #000000;
-    border-radius: 10px;
-    margin-top: 1em;
-    transition: all 0.3s ease;
 }
 
 #contact .card input[placeholder] {
