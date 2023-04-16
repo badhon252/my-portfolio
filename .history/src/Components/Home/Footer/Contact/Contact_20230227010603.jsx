@@ -58,9 +58,9 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  onClick={(e) => {
-                    e.preventDefault();
+                  onSubmit={(e) => {
                     console.log(e);
+                    e.preventDefault();
                   }}
                   className="btn footerBtn"
                 >

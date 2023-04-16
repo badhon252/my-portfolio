@@ -28,29 +28,29 @@ export default function Contact() {
             <div className="contactForm card p-5">
               <h1 className="m-3">Send me a messege!</h1>
               <form>
-                <div className="mb-3">
+                <div class="mb-3">
                   <input
                     type="text"
-                    className="form-control"
+                    class="form-control"
                     id="exampleInputPassword1"
                     placeholder="Type your name here*"
                   />
                 </div>
-                <div className="mb-3">
+                <div class="mb-3">
                   <input
                     type="email"
-                    className="form-control"
+                    class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="Type your email here*"
                   />
-                  <div id="emailHelp" className="form-text pb-3 ">
+                  <div id="emailHelp" class="form-text pb-3 ">
                     I'll never share your email with anyone else.
                   </div>
                 </div>
-                <div className="mb-3">
+                <div class="mb-3">
                   <textarea
-                    className="form-control"
+                    class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
                     placeholder="Tell me more about your project..."
@@ -58,11 +58,8 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    console.log(e);
-                  }}
-                  className="btn footerBtn"
+                  onSubmit={(e) => console.log(e)}
+                  class="btn footerBtn"
                 >
                   Send message
                 </button>

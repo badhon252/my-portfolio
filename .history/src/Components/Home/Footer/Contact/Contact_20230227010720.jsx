@@ -58,7 +58,7 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  onClick={(e) => {
+                  onSubmit={(e) => {
                     e.preventDefault();
                     console.log(e);
                   }}
